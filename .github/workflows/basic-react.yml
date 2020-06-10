@@ -40,7 +40,7 @@ jobs:
       run: sudo npm install --global surge
     
     - name: Deploy to Surge
-      run: surge ./build project3.surge.sh --token ${{secrets.surge_token}}
+      run: surge ./build daniyal-assign3.surge.sh --token ${{secrets.surge_token}}
       
       
       
